@@ -3,3 +3,60 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Red Hat Display";
+  background-image: url("images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  font-size: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 450px;
+  border: 1px solid black;
+  margin: 7% 35%;
+}
+
+.card-img {
+  height: 220px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 450px;
+  background-color: #fff;
+}
+
+.card-title {
+  flex: 1;
+}
+
+.card-summary {
+  display: block;
+}
+
+.card-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-payment {
+  display: block;
+}
+
+.music-icon {
+  display: inline-block;
+}
