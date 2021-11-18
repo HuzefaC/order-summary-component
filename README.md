@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/HuzefaC/order-summary-component]
-<!-- - Live Site URL: [https://github.com/HuzefaC/order-summary-component] -->
+- Live Site URL: [https://huzefac.github.io/order-summary-component/]
 
 ### Built with
 
