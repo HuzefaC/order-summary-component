@@ -10,8 +10,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
   - [Built with](#built-with)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -22,15 +20,15 @@ Users should be able to:
 
 ### Screenshot
 
-![./screenshot.png](./screenshot.jpg)
+![./screenshot.png](./screenshot.png)
 
 ### Links
 
 - Solution URL: [https://github.com/HuzefaC/order-summary-component]
-- Live Site URL: [https://github.com/HuzefaC/order-summary-component]
+<!-- - Live Site URL: [https://github.com/HuzefaC/order-summary-component] -->
 
 ### Built with
 
 - HTML5 markup
-- CSS custom properties
+- CSS3
 - Flexbox
