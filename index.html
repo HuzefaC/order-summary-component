@@ -18,50 +18,36 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-
     <title>Frontend Mentor | Order summary card</title>
   </head>
-  <body>
+  <body class="flex">
     <div class="card">
       <div class="card-img">
-        <img src="images/illustration-hero.svg" alt="Hero Image" />
+        <img src="images/illustration-hero.svg" alt="Girl listening to music" />
       </div>
       <div class="card-content">
-        <div class="card-title">
-          <h2>Order Summary</h2>
-        </div>
-        <div class="card-summary">
-          <p>
-            You can now listen to millions of songs, audiobooks, and podcasts on
-            any device anywhere you like!
-          </p>
-        </div>
-        <div class="card-plan">
-          <img
-            src="images/icon-music.svg"
-            alt="Music Icon"
-            class="music-icon"
-          />
-          <div>
-            <h3>Annual Plan</h3>
-            <p>$59.99/year</p>
+        <h2 class="card-heading">Order Summary</h2>
+        <p class="card-text">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="plan-box">
+          <div class="icon-box">
+            <img
+              src="images/icon-music.svg"
+              alt="Music Icon"
+              class="icon-img"
+            />
+            <div class="pricing">
+              <h3>Annual Plan</h3>
+              <p>$59.99/year</p>
+            </div>
           </div>
-          <a href="#">Change</a>
+          <a href="#" class="btn-change">Change</a>
         </div>
-        <div class="card-payment">
-          <button>Proceed to Payment</button>
-          <button>Cancel Order</button>
-        </div>
+        <a href="#" class="btn btn--primary">Proceed to Payment</a>
+        <a href="#" class="btn btn--secondary">Cancel Order</a>
       </div>
     </div>
-
-    <!-- <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Huzefa Chabukswar</a>.
-      </div>
-    </footer> -->
   </body>
 </html>

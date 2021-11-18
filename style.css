@@ -1,62 +1,155 @@
+/***********************/
+/* Genereal Styles */
+/***********************/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Red Hat Display";
-  background-image: url("images/pattern-background-desktop.svg");
-  background-color: hsl(225, 100%, 94%);
-  background-repeat: no-repeat;
-  font-size: 16px;
+html {
+  font-size: 62.5%;
 }
 
-.card {
+body {
+  font-family: "Red Hat Display", sans-serif;
+  min-height: 100vh;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  color: hsl(224, 23%, 55%);
+  padding: 0 2rem;
+}
+
+.flex {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  align-content: center;
-  width: 450px;
-  border: 1px solid black;
-  margin: 7% 35%;
 }
 
-.card-img {
-  height: 220px;
+.btn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/***********************/
+/* Card Component */
+/***********************/
+
+.card {
+  max-width: 45rem;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
 }
 
 .card-content {
+  padding: 2.4rem 4.8rem;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+
+.card-heading {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+}
+
+.card-text {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.icon-box {
+  display: flex;
   align-items: center;
   justify-content: center;
-  align-content: center;
-  width: 450px;
-  background-color: #fff;
+  gap: 1.2rem;
 }
 
-.card-title {
-  flex: 1;
+.icon-img {
+  width: 4.8rem;
 }
 
-.card-summary {
-  display: block;
-}
-
-.card-plan {
+.plan-box {
+  font-size: 1.2rem;
+  font-weight: 700;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+  padding: 0 3.2rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
 }
 
-.card-payment {
+.pricing {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.pricing h3 {
+  color: hsl(223, 47%, 23%);
+}
+
+.pricing p {
+  font-weight: 500;
+}
+
+.buttons {
   display: block;
 }
 
-.music-icon {
-  display: inline-block;
+.btn-change:link,
+.btn-change:visited {
+  color: hsl(245, 75%, 52%);
+}
+
+.btn-change:hover,
+.btn-change:active {
+  text-decoration: none;
+  color: hsl(245, 74%, 62%);
+}
+
+.btn--primary:link,
+.btn--primary:visited {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(0, 0%, 100%);
+  /* padding: 1.2rem 11rem; */
+  border-radius: 10px;
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.1);
+}
+
+.btn--primary:hover,
+.btn--primary:active {
+  background-color: hsl(245, 74%, 62%);
+}
+
+.btn--secondary:link,
+.btn--secondary:visited {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(224, 23%, 55%);
+  /* padding: 1.2rem 12rem; */
+  border-radius: 10px;
+}
+
+.btn--secondary:hover,
+.btn--secondary:active {
+  color: hsl(223, 47%, 23%);
 }
